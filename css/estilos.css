@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.fondo1 {
+    background-color:deeppink;
+}
+
+
+.titulo {
+    font-style: oblique;
+   display: flex;
+   flex-direction;
+   justify-content: center;
+   background-color:pink;
+}
+
+.carousel-inner {
+    max-height: 40%;
+    max-width: 80%;
+    display: flex;
+    flex-direction;
+    justify-content:space-between;
+    position relative;
+    left:10%;
+}
+
+.footer-info {
+ height: 100px;
+
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
