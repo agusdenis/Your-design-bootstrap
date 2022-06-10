@@ -11,9 +11,8 @@
 
 
 .titulo {
-    font-style: oblique;
+   font-style: oblique;
    display: flex;
-   flex-direction;
    justify-content: center;
    background-color:pink;
 }
@@ -21,10 +20,7 @@
 .carousel-inner {
     max-height: 40%;
     max-width: 80%;
-    display: flex;
-    flex-direction;
-    justify-content:space-between;
-    position relative;
+    position: relative;
     left:10%;
 }
 
