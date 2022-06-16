@@ -11,7 +11,7 @@
 </head>
 <body class="fondo__body">
     <header>
-      <a href="trabajos.html"></a>
+      <a href="contacto.html"></a>
       <img src="../img/LOGO A D.png" alt="LOGO" class="logo">
       <h1 class="titulo">YOUR DESIGN</h1>
    
@@ -27,12 +27,12 @@
                    <a class="nav-link active" aria-current="page" href="../pages/productos.html" >Productos</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="../pages/trabajos.html">Trabajos</a>
+                    <a class="nav-link" href="../pages/trabajos.html">Trabajos</a>
+                  </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                  </li>
                  <li class="nav-item">
-                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="../pages/historia.html">Historia</a>
                 </li>
              
@@ -43,6 +43,35 @@
         </header> 
         
         <main>
+
+          <div class="consultas">
+          <h2 class="consultas__enter">¡Déjenos su consulta!</h2>
+       
+            <form action="" method="get" enctype="text/plain">
+                 <div>
+                    <label for="username">Nombre</label>
+                    <input type="text" id="username" name="username" placeholder="Coloque su nombre">
+                 </div>
+   
+                 <div>
+                     <label for="apellido">Apellido</label>
+                     <input type="text" id="apellido" name="apellido" placeholder="Coloque su apellido">
+                 </div>
+        
+                 <div>
+                     <label for="Celular">Celular</label>
+                     <input type="number" id="Celular" name="Celular"required placeholder="Coloque su celular">
+                 </div>
+        
+                 <div>
+                     <label for="consulta">Consulta</label>
+                     <textarea name="consulta" id="consulta" cols="40" rows="5" required placeholder="Deje su consulta"></textarea>
+                 </div>
+        
+                 <button>ENVIAR</button>
+        
+            </form>
+        </div>
 
         </main>
 
