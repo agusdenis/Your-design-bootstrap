@@ -5,13 +5,13 @@
     font-style: oblique;
     display: flex;
     justify-content: center;
-    background-color: $rosaclaro;
+    background-color: map-get($colores , "fondo2" );
    }
    
    .logo {
      position: relative;
      left: 48%;
-     background-color: $rosaclaro;
+     background-color: map-get($colores , "fondo2");
      height:100px;
      
        -webkit-animation: rotate-scale-down-hor 0.65s linear both;

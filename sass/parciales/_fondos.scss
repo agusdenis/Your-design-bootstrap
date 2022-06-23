@@ -1,11 +1,12 @@
 @import "./variables" ;
+@import "./mapas";
 
 .fondo1 {
-    background-color: $fucsia;
+    background-color: map-get($colores, "fondo1");
   }
   
 .fondo__body {
-    background-color: $rosaclaro;
+    background-color: map-get($colores, "fondo2");
   }
 
   
