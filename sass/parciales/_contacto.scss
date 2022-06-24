@@ -1,5 +1,10 @@
 @import"./variables";
+@import "./videos.scss";
 
 .label { display: block;
 
+}
+
+.consultas__enter {
+@extend .primervideo;
 }

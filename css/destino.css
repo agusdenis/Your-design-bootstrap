@@ -150,6 +150,25 @@
   position: relative;
   left: 10%; }
 
+.videos__trabajos {
+  width: 30%;
+  height: 300px; }
+
+.primervideo, .consultas__enter {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  color: #e22b77; }
+
+.segundovideo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  color: hotpink; }
+
+.tercervideo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  color: #1800f1; }
+
 .label {
   display: block; }
 
@@ -157,7 +176,7 @@
   width: 30%;
   height: 300px; }
 
-.primervideo {
+.primervideo, .consultas__enter {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: xx-large;
   color: #e22b77; }
