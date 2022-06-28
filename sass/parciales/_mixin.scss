@@ -1,5 +1,8 @@
 
+/*MIXIN*/
+
 @mixin titulosvideos {
+    text-align: center;
     font-family: $letratitulos;
     font-size:xx-large;
 }

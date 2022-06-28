@@ -1,0 +1,66 @@
+@import "./mixin.scss";
+
+/*IMAGENES CON GRID*/
+
+.gallery__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  padding: 20px;
+  grid-gap:10px;
+ .gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+  .gallery__item:nth-child(4) {
+    grid-column-start:span 2;
+  }
+  
+  .gallery__item:nth-child(5) {
+    grid-row-start:span 2;
+  }
+  
+  .gallery__item:nth-child(2) {
+    grid-column-start:span 2;
+  }
+  
+  .gallery__item:nth-child(3) {
+    grid-column-start:span 2;
+  }
+  
+  .gallery__item:nth-child(1) {
+    grid-row-start:span 2;
+  }
+  
+  .gallery__item:nth-child(7) {
+    grid-row-start:span 2;
+  }
+}
+
+
+
+/* EJEMPLOS DE VIDEOS */
+
+.videos__trabajos {
+    width: 30%;
+    height: 300px;
+
+  }
+
+.primervideo {
+@include titulosvideos;
+color: rgb(226, 43, 119);
+
+}
+
+.segundovideo {
+@include titulosvideos;
+color: hotpink;
+}
+
+.tercervideo {
+@include titulosvideos;
+color: rgb(24, 0, 241);
+}
+

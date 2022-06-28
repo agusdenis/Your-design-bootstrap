@@ -1,6 +1,8 @@
-@import "./variables" ;
+@import "./variables";
 @import "./mapas";
 
+/*FONDOS DE MI PÁGINA*/
+ 
 .fondo1 {
     background-color: map-get($colores, "fondo1");
   }
