@@ -50,17 +50,17 @@
 
 .primervideo {
 @include titulosvideos;
-color: rgb(226, 43, 119);
+color: rgb(241, 0, 100);
 
 }
 
 .segundovideo {
 @include titulosvideos;
-color: hotpink;
+color: rgb(231, 78, 111);
 }
 
 .tercervideo {
 @include titulosvideos;
-color: rgb(24, 0, 241);
+color: rgb(224, 107, 132);
 }
 

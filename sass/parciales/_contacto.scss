@@ -1,10 +1,23 @@
 @import"./variables";
 @import "./videos-imagenes";
 
-.label { display: block;
+.label { 
+   display: block;
+   font-family: $letratitulos;
+   font-size: larger;
+   font-style:italic;
+   color:rgb(230, 50, 137);
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+.consultas {
+    text-align: center;
+
 
 }
 
 .consultas__enter {
 @extend .primervideo;
+margin-bottom: 3%;
 }

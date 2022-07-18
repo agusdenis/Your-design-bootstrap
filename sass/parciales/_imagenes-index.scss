@@ -73,6 +73,7 @@
 
 .texto__nosotros {
   font-family: 'Charis SIL', serif;
-  font-size:larger;
+  font-size:medium;
   color: map-get($colores, "textos" );
+  margin: 10px;
 }

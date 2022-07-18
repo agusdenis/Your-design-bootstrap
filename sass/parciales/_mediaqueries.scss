@@ -80,9 +80,20 @@
         object-fit: cover;
     }
   }
+  
 
   .texto__nosotros {
     font-family: 'Charis SIL', serif;
     font-size:medium;
     color: map-get($colores, "textos" );
+  }
+
+
+  /*MEDIA QUERIES HISTORIA*/ 
+  @media all and (max-width: 600px) {
+    .fotos__empleados {
+        display: grid;
+        grid-template-columns:(1fr);
+    }
+    
   }

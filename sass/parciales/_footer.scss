@@ -3,16 +3,18 @@
 
 /*EN EL FOOTER PRESENTO LAS REDES SOCIALES*/
 
+
 .footer-info {
+    margin-top: 3%;
     font-family: $letratitulos;
     .iconos{
       -webkit-animation: rotate-scale-up-ver 0.65s linear both;
       animation: rotate-scale-up-ver 0.65s linear both;
     }
      .derechos__footer {
-        margin: 1%;
+        margin-top: 2%;
         font-family:initial;
-        font-size: small;
+        font-size: medium;
 
     }
   }

@@ -1,8 +1,20 @@
 @import "./variables";
+@import "./mapas";
 
 .carousel-inner {
     max-height: 40%;
     max-width: 80%;
     position: relative;
     left:10%;
+  }
+
+  .texto__productos {
+
+   color: map-get($colores, "textos");
+   text-align: center;
+   font-size: x-large;
+   font-family: $letratitulos;
+   margin-top: 5%;
+   margin-bottom: 5%;
+
   }

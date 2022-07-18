@@ -1,0 +1,60 @@
+@import "./variables";
+@import "./mapas";
+
+.fotos__empleados{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-columns: 150px;
+        padding: 20px;
+        grid-gap: 20px;
+       .empleado__img  {
+        width: 80%;
+        height: 80%;
+        border-style: groove;
+        border-color: map-get($colores, "textos");
+        object-fit: cover;
+
+       }
+
+       /*texto*/
+
+      .empleados__item {
+        color: map-get($colores, "textos");
+        text-align: center;
+        font-family:$letratitulos;
+      }
+
+       .empleados__item:nth-child(6) {
+        grid-column-start:auto;
+      }
+       .empleados__item:nth-child(5) {
+        grid-column-start:auto;
+      }
+
+      .empleados__item:nth-child(4) {
+        grid-column-start:auto;
+      }
+      .empleados__item:nth-child(3) {
+        grid-column-start:auto ;
+      }
+  
+      .empleados__item:nth-child(2) {
+        grid-column-start:auto;
+      }
+  
+     .empleados__item:nth-child(1) {
+        grid-column-start:auto;
+      }
+  
+
+} 
+
+  .texto__equipo {
+ text-align: center;
+ font-style: italic;
+ color:rgb(230, 50, 137);
+ margin-top: 3%;
+ margin-bottom: 3%;
+
+  }
+  
